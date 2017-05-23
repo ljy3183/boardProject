@@ -1,0 +1,286 @@
+src/main/java/com/spring/board/HomeController.java:18:	Each class should declare at least one constructor
+src/main/java/com/spring/board/HomeController.java:20:	Variables that are final and static should be all capitals, 'logger' is not all capitals.
+src/main/java/com/spring/board/HomeController.java:20:	fieldCommentRequirement Required
+src/main/java/com/spring/board/HomeController.java:26:	Parameter 'locale' is not assigned and could be declared final
+src/main/java/com/spring/board/HomeController.java:26:	Parameter 'model' is not assigned and could be declared final
+src/main/java/com/spring/board/HomeController.java:29:	Local variable 'date' could be declared final
+src/main/java/com/spring/board/HomeController.java:30:	Local variable 'dateFormat' could be declared final
+src/main/java/com/spring/board/HomeController.java:32:	Local variable 'formattedDate' could be declared final
+src/main/java/com/spring/board/HomeController.java:32:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/spring/boardcommon/Paging.java:5:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/spring/boardcommon/Paging.java:5:	headerCommentRequirement Required
+src/main/java/com/spring/boardcommon/Paging.java:6:	Parameter 'bvo' is not assigned and could be declared final
+src/main/java/com/spring/boardcommon/Paging.java:6:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardcommon/Paging.java:7:	Local variable 'page' could be declared final
+src/main/java/com/spring/boardcommon/Paging.java:8:	Local variable 'pageSize' could be declared final
+src/main/java/com/spring/boardcommon/Paging.java:10:	Avoid using if statements without curly braces
+src/main/java/com/spring/boardcommon/Paging.java:11:	Do not add empty strings
+src/main/java/com/spring/boardcommon/Paging.java:12:	Avoid using if statements without curly braces
+src/main/java/com/spring/boardcommon/Paging.java:13:	Do not add empty strings
+src/main/java/com/spring/boardcommon/Paging.java:15:	Local variable 'start_row' could be declared final
+src/main/java/com/spring/boardcommon/Paging.java:15:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'start_row' is not final.
+src/main/java/com/spring/boardcommon/Paging.java:16:	Local variable 'end_row' could be declared final
+src/main/java/com/spring/boardcommon/Paging.java:16:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'end_row' is not final.
+src/main/java/com/spring/boardcommon/Paging.java:18:	Do not add empty strings
+src/main/java/com/spring/boardcommon/Paging.java:19:	Do not add empty strings
+src/main/java/com/spring/boardcommon/PagingVO.java:3:	Each class should declare at least one constructor
+src/main/java/com/spring/boardcommon/PagingVO.java:3:	headerCommentRequirement Required
+src/main/java/com/spring/boardcommon/PagingVO.java:4:	fieldCommentRequirement Required
+src/main/java/com/spring/boardcommon/PagingVO.java:5:	fieldCommentRequirement Required
+src/main/java/com/spring/boardcommon/PagingVO.java:6:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'start_row' is not final.
+src/main/java/com/spring/boardcommon/PagingVO.java:6:	fieldCommentRequirement Required
+src/main/java/com/spring/boardcommon/PagingVO.java:7:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'end_row' is not final.
+src/main/java/com/spring/boardcommon/PagingVO.java:7:	fieldCommentRequirement Required
+src/main/java/com/spring/boardcommon/PagingVO.java:9:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardcommon/PagingVO.java:13:	Parameter 'page' is not assigned and could be declared final
+src/main/java/com/spring/boardcommon/PagingVO.java:13:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardcommon/PagingVO.java:17:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardcommon/PagingVO.java:21:	Parameter 'pageSize' is not assigned and could be declared final
+src/main/java/com/spring/boardcommon/PagingVO.java:21:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardcommon/PagingVO.java:25:	Method names should not contain underscores
+src/main/java/com/spring/boardcommon/PagingVO.java:25:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardcommon/PagingVO.java:29:	Method names should not contain underscores
+src/main/java/com/spring/boardcommon/PagingVO.java:29:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'start_row' is not final.
+src/main/java/com/spring/boardcommon/PagingVO.java:29:	Parameter 'start_row' is not assigned and could be declared final
+src/main/java/com/spring/boardcommon/PagingVO.java:29:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardcommon/PagingVO.java:33:	Method names should not contain underscores
+src/main/java/com/spring/boardcommon/PagingVO.java:33:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardcommon/PagingVO.java:37:	Method names should not contain underscores
+src/main/java/com/spring/boardcommon/PagingVO.java:37:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'end_row' is not final.
+src/main/java/com/spring/boardcommon/PagingVO.java:37:	Parameter 'end_row' is not assigned and could be declared final
+src/main/java/com/spring/boardcommon/PagingVO.java:37:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardcommon/Util.java:3:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/spring/boardcommon/Util.java:3:	Avoid short class names like Util
+src/main/java/com/spring/boardcommon/Util.java:3:	headerCommentRequirement Required
+src/main/java/com/spring/boardcommon/Util.java:4:	Parameter 'text' is not assigned and could be declared final
+src/main/java/com/spring/boardcommon/Util.java:4:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardcommon/Util.java:8:	Parameter 'def' is not assigned and could be declared final
+src/main/java/com/spring/boardcommon/Util.java:8:	Parameter 'text' is not assigned and could be declared final
+src/main/java/com/spring/boardcommon/Util.java:8:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardcommon/Util.java:9:	Found 'DD'-anomaly for variable 'ret' (lines '9'-'11').
+src/main/java/com/spring/boardcommon/Util.java:11:	Found 'DD'-anomaly for variable 'ret' (lines '11'-'13').
+src/main/java/com/spring/boardcommon/Util.java:12:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/spring/boardcommon/Util.java:19:	Parameter 'def' is not assigned and could be declared final
+src/main/java/com/spring/boardcommon/Util.java:19:	Parameter 'text' is not assigned and could be declared final
+src/main/java/com/spring/boardcommon/Util.java:19:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardcommon/Util.java:20:	Avoid using Literals in Conditional Statements
+src/main/java/com/spring/boardcommon/Util.java:20:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/spring/boardcommon/Util.java:21:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/spring/boardcontroller/BoardController.java:21:	Each class should declare at least one constructor
+src/main/java/com/spring/boardcontroller/BoardController.java:21:	headerCommentRequirement Required
+src/main/java/com/spring/boardcontroller/BoardController.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/spring/boardcontroller/BoardController.java:22:	The Logger variable declaration does not contain the static and final modifiers
+src/main/java/com/spring/boardcontroller/BoardController.java:22:	To avoid mistakes add a comment at the beginning of the logger field if you want a default access modifier
+src/main/java/com/spring/boardcontroller/BoardController.java:22:	Use explicit scoping instead of the default package private level
+src/main/java/com/spring/boardcontroller/BoardController.java:22:	fieldCommentRequirement Required
+src/main/java/com/spring/boardcontroller/BoardController.java:25:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/spring/boardcontroller/BoardController.java:25:	fieldCommentRequirement Required
+src/main/java/com/spring/boardcontroller/BoardController.java:29:	Parameter 'bvo' is not assigned and could be declared final
+src/main/java/com/spring/boardcontroller/BoardController.java:29:	Parameter 'model' is not assigned and could be declared final
+src/main/java/com/spring/boardcontroller/BoardController.java:29:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardcontroller/BoardController.java:33:	Avoid using if statements without curly braces
+src/main/java/com/spring/boardcontroller/BoardController.java:35:	Avoid using if statements without curly braces
+src/main/java/com/spring/boardcontroller/BoardController.java:39:	There is log block not surrounded by if
+src/main/java/com/spring/boardcontroller/BoardController.java:40:	There is log block not surrounded by if
+src/main/java/com/spring/boardcontroller/BoardController.java:43:	There is log block not surrounded by if
+src/main/java/com/spring/boardcontroller/BoardController.java:44:	There is log block not surrounded by if
+src/main/java/com/spring/boardcontroller/BoardController.java:50:	Local variable 'total' could be declared final
+src/main/java/com/spring/boardcontroller/BoardController.java:51:	There is log block not surrounded by if
+src/main/java/com/spring/boardcontroller/BoardController.java:53:	Local variable 'count' could be declared final
+src/main/java/com/spring/boardcontroller/BoardController.java:54:	There is log block not surrounded by if
+src/main/java/com/spring/boardcontroller/BoardController.java:56:	Local variable 'boardList' could be declared final
+src/main/java/com/spring/boardcontroller/BoardController.java:67:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardcontroller/BoardController.java:75:	Parameter 'bvo' is not assigned and could be declared final
+src/main/java/com/spring/boardcontroller/BoardController.java:75:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardcontroller/BoardController.java:78:	Found 'DD'-anomaly for variable 'result' (lines '78'-'81').
+src/main/java/com/spring/boardcontroller/BoardController.java:79:	Found 'DD'-anomaly for variable 'url' (lines '79'-'83').
+src/main/java/com/spring/boardcontroller/BoardController.java:82:	Avoid using Literals in Conditional Statements
+src/main/java/com/spring/boardcontroller/BoardController.java:91:	Parameter 'model' is not assigned and could be declared final
+src/main/java/com/spring/boardcontroller/BoardController.java:91:	Parameter 'pvo' is not assigned and could be declared final
+src/main/java/com/spring/boardcontroller/BoardController.java:91:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardcontroller/BoardController.java:95:	There is log block not surrounded by if
+src/main/java/com/spring/boardcontroller/BoardController.java:97:	Found 'DD'-anomaly for variable 'detail' (lines '97'-'98').
+src/main/java/com/spring/boardcontroller/BoardController.java:100:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/spring/boardcontroller/BoardController.java:100:	Useless parentheses.
+src/main/java/com/spring/boardcontroller/BoardController.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/spring/boardcontroller/BoardController.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/spring/boardcontroller/BoardController.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/spring/boardcontroller/BoardController.java:101:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/spring/boardcontroller/BoardController.java:101:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/spring/boardcontroller/BoardController.java:101:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/spring/boardcontroller/BoardController.java:113:	Parameter 'bvo' is not assigned and could be declared final
+src/main/java/com/spring/boardcontroller/BoardController.java:113:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardcontroller/BoardController.java:117:	Found 'DD'-anomaly for variable 'result' (lines '117'-'118').
+src/main/java/com/spring/boardcontroller/BoardController.java:119:	There is log block not surrounded by if
+src/main/java/com/spring/boardcontroller/BoardController.java:121:	Do not add empty strings
+src/main/java/com/spring/boardcontroller/BoardController.java:126:	Parameter 'model' is not assigned and could be declared final
+src/main/java/com/spring/boardcontroller/BoardController.java:126:	Parameter 'pvo' is not assigned and could be declared final
+src/main/java/com/spring/boardcontroller/BoardController.java:126:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardcontroller/BoardController.java:129:	There is log block not surrounded by if
+src/main/java/com/spring/boardcontroller/BoardController.java:131:	Found 'DD'-anomaly for variable 'updateData' (lines '131'-'132').
+src/main/java/com/spring/boardcontroller/BoardController.java:140:	Parameter 'bvo' is not assigned and could be declared final
+src/main/java/com/spring/boardcontroller/BoardController.java:140:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardcontroller/BoardController.java:143:	Found 'DD'-anomaly for variable 'result' (lines '143'-'145').
+src/main/java/com/spring/boardcontroller/BoardController.java:144:	Found 'DD'-anomaly for variable 'url' (lines '144'-'148').
+src/main/java/com/spring/boardcontroller/BoardController.java:147:	Avoid using Literals in Conditional Statements
+src/main/java/com/spring/boardcontroller/BoardController.java:157:	Parameter 'bvo' is not assigned and could be declared final
+src/main/java/com/spring/boardcontroller/BoardController.java:157:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardcontroller/BoardController.java:161:	Found 'DD'-anomaly for variable 'result' (lines '161'-'164').
+src/main/java/com/spring/boardcontroller/BoardController.java:162:	Found 'DD'-anomaly for variable 'url' (lines '162'-'166').
+src/main/java/com/spring/boardcontroller/BoardController.java:165:	Avoid using Literals in Conditional Statements
+src/main/java/com/spring/boarddao/BoardDao.java:7:	headerCommentRequirement Required
+src/main/java/com/spring/boarddao/BoardDao.java:8:	Avoid modifiers which are implied by the context
+src/main/java/com/spring/boarddao/BoardDao.java:8:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boarddao/BoardDao.java:10:	Avoid modifiers which are implied by the context
+src/main/java/com/spring/boarddao/BoardDao.java:10:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boarddao/BoardDao.java:12:	Avoid modifiers which are implied by the context
+src/main/java/com/spring/boarddao/BoardDao.java:12:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boarddao/BoardDao.java:14:	Avoid modifiers which are implied by the context
+src/main/java/com/spring/boarddao/BoardDao.java:14:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boarddao/BoardDao.java:16:	Avoid modifiers which are implied by the context
+src/main/java/com/spring/boarddao/BoardDao.java:16:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boarddao/BoardDao.java:18:	Avoid modifiers which are implied by the context
+src/main/java/com/spring/boarddao/BoardDao.java:18:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boarddao/BoardDao.java:20:	Avoid modifiers which are implied by the context
+src/main/java/com/spring/boarddao/BoardDao.java:20:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'b_num' is not final.
+src/main/java/com/spring/boarddao/BoardDao.java:20:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boarddao/BoardDaoImpl.java:13:	Each class should declare at least one constructor
+src/main/java/com/spring/boarddao/BoardDaoImpl.java:13:	headerCommentRequirement Required
+src/main/java/com/spring/boarddao/BoardDaoImpl.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/spring/boarddao/BoardDaoImpl.java:16:	fieldCommentRequirement Required
+src/main/java/com/spring/boarddao/BoardDaoImpl.java:18:	fieldCommentRequirement Required
+src/main/java/com/spring/boarddao/BoardDaoImpl.java:21:	Parameter 'pvo' is not assigned and could be declared final
+src/main/java/com/spring/boarddao/BoardDaoImpl.java:21:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boarddao/BoardDaoImpl.java:26:	Parameter 'pvo' is not assigned and could be declared final
+src/main/java/com/spring/boarddao/BoardDaoImpl.java:26:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boarddao/BoardDaoImpl.java:31:	Parameter 'pvo' is not assigned and could be declared final
+src/main/java/com/spring/boarddao/BoardDaoImpl.java:31:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boarddao/BoardDaoImpl.java:36:	Parameter 'pvo' is not assigned and could be declared final
+src/main/java/com/spring/boarddao/BoardDaoImpl.java:36:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boarddao/BoardDaoImpl.java:41:	Parameter 'pvo' is not assigned and could be declared final
+src/main/java/com/spring/boarddao/BoardDaoImpl.java:41:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boarddao/BoardDaoImpl.java:46:	Parameter 'pvo' is not assigned and could be declared final
+src/main/java/com/spring/boarddao/BoardDaoImpl.java:46:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boarddao/BoardDaoImpl.java:51:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'b_num' is not final.
+src/main/java/com/spring/boarddao/BoardDaoImpl.java:51:	Parameter 'b_num' is not assigned and could be declared final
+src/main/java/com/spring/boarddao/BoardDaoImpl.java:51:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardservice/BoardService.java:7:	headerCommentRequirement Required
+src/main/java/com/spring/boardservice/BoardService.java:9:	Avoid modifiers which are implied by the context
+src/main/java/com/spring/boardservice/BoardService.java:9:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardservice/BoardService.java:11:	Avoid modifiers which are implied by the context
+src/main/java/com/spring/boardservice/BoardService.java:11:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardservice/BoardService.java:13:	Avoid modifiers which are implied by the context
+src/main/java/com/spring/boardservice/BoardService.java:13:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardservice/BoardService.java:15:	Avoid modifiers which are implied by the context
+src/main/java/com/spring/boardservice/BoardService.java:15:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardservice/BoardService.java:17:	Avoid modifiers which are implied by the context
+src/main/java/com/spring/boardservice/BoardService.java:17:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardservice/BoardService.java:19:	Avoid modifiers which are implied by the context
+src/main/java/com/spring/boardservice/BoardService.java:19:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardservice/BoardService.java:21:	Avoid modifiers which are implied by the context
+src/main/java/com/spring/boardservice/BoardService.java:21:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'b_num' is not final.
+src/main/java/com/spring/boardservice/BoardService.java:21:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:16:	Each class should declare at least one constructor
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:16:	headerCommentRequirement Required
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:17:	The Logger variable declaration does not contain the static and final modifiers
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:17:	To avoid mistakes add a comment at the beginning of the logger field if you want a default access modifier
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:17:	Use explicit scoping instead of the default package private level
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:17:	fieldCommentRequirement Required
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:20:	fieldCommentRequirement Required
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:23:	Parameter 'pvo' is not assigned and could be declared final
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:23:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:24:	Found 'DD'-anomaly for variable 'myList' (lines '24'-'25').
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:30:	Parameter 'pvo' is not assigned and could be declared final
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:30:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:31:	Found 'DD'-anomaly for variable 'result' (lines '31'-'32').
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:37:	Parameter 'pvo' is not assigned and could be declared final
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:37:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:38:	Found 'DD'-anomaly for variable 'detail' (lines '38'-'39').
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:44:	Parameter 'pvo' is not assigned and could be declared final
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:44:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:45:	Found 'DD'-anomaly for variable 'result' (lines '45'-'46').
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:51:	Parameter 'pvo' is not assigned and could be declared final
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:51:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:52:	Found 'DD'-anomaly for variable 'result' (lines '52'-'53').
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:58:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'b_num' is not final.
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:58:	Parameter 'b_num' is not assigned and could be declared final
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:58:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:59:	Found 'DD'-anomaly for variable 'result' (lines '59'-'60').
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:65:	Parameter 'pvo' is not assigned and could be declared final
+src/main/java/com/spring/boardservice/BoardServiceImpl.java:65:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:5:	Each class should declare at least one constructor
+src/main/java/com/spring/boardvo/BoardVO.java:5:	headerCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:6:	Avoid using redundant field initializer for 'b_num'
+src/main/java/com/spring/boardvo/BoardVO.java:6:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'b_num' is not final.
+src/main/java/com/spring/boardvo/BoardVO.java:6:	fieldCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:7:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'b_name' is not final.
+src/main/java/com/spring/boardvo/BoardVO.java:7:	fieldCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:8:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'b_title' is not final.
+src/main/java/com/spring/boardvo/BoardVO.java:8:	fieldCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:9:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'b_content' is not final.
+src/main/java/com/spring/boardvo/BoardVO.java:9:	fieldCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:10:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'b_date' is not final.
+src/main/java/com/spring/boardvo/BoardVO.java:10:	fieldCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:11:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'b_pwd' is not final.
+src/main/java/com/spring/boardvo/BoardVO.java:11:	fieldCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:14:	fieldCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:15:	fieldCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:18:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'order_by' is not final.
+src/main/java/com/spring/boardvo/BoardVO.java:18:	fieldCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:19:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'order_sc' is not final.
+src/main/java/com/spring/boardvo/BoardVO.java:19:	fieldCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:21:	Method names should not contain underscores
+src/main/java/com/spring/boardvo/BoardVO.java:21:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:25:	Method names should not contain underscores
+src/main/java/com/spring/boardvo/BoardVO.java:25:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'b_num' is not final.
+src/main/java/com/spring/boardvo/BoardVO.java:25:	Parameter 'b_num' is not assigned and could be declared final
+src/main/java/com/spring/boardvo/BoardVO.java:25:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:29:	Method names should not contain underscores
+src/main/java/com/spring/boardvo/BoardVO.java:29:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:33:	Method names should not contain underscores
+src/main/java/com/spring/boardvo/BoardVO.java:33:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'b_name' is not final.
+src/main/java/com/spring/boardvo/BoardVO.java:33:	Parameter 'b_name' is not assigned and could be declared final
+src/main/java/com/spring/boardvo/BoardVO.java:33:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:37:	Method names should not contain underscores
+src/main/java/com/spring/boardvo/BoardVO.java:37:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:41:	Method names should not contain underscores
+src/main/java/com/spring/boardvo/BoardVO.java:41:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'b_title' is not final.
+src/main/java/com/spring/boardvo/BoardVO.java:41:	Parameter 'b_title' is not assigned and could be declared final
+src/main/java/com/spring/boardvo/BoardVO.java:41:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:45:	Method names should not contain underscores
+src/main/java/com/spring/boardvo/BoardVO.java:45:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:49:	Method names should not contain underscores
+src/main/java/com/spring/boardvo/BoardVO.java:49:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'b_content' is not final.
+src/main/java/com/spring/boardvo/BoardVO.java:49:	Parameter 'b_content' is not assigned and could be declared final
+src/main/java/com/spring/boardvo/BoardVO.java:49:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:53:	Method names should not contain underscores
+src/main/java/com/spring/boardvo/BoardVO.java:53:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:57:	Method names should not contain underscores
+src/main/java/com/spring/boardvo/BoardVO.java:57:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'b_date' is not final.
+src/main/java/com/spring/boardvo/BoardVO.java:57:	Parameter 'b_date' is not assigned and could be declared final
+src/main/java/com/spring/boardvo/BoardVO.java:57:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:61:	Method names should not contain underscores
+src/main/java/com/spring/boardvo/BoardVO.java:61:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:65:	Method names should not contain underscores
+src/main/java/com/spring/boardvo/BoardVO.java:65:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'b_pwd' is not final.
+src/main/java/com/spring/boardvo/BoardVO.java:65:	Parameter 'b_pwd' is not assigned and could be declared final
+src/main/java/com/spring/boardvo/BoardVO.java:65:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:69:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:73:	Parameter 'search' is not assigned and could be declared final
+src/main/java/com/spring/boardvo/BoardVO.java:73:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:77:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:81:	Parameter 'keyword' is not assigned and could be declared final
+src/main/java/com/spring/boardvo/BoardVO.java:81:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:85:	Method names should not contain underscores
+src/main/java/com/spring/boardvo/BoardVO.java:85:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:89:	Method names should not contain underscores
+src/main/java/com/spring/boardvo/BoardVO.java:89:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'order_by' is not final.
+src/main/java/com/spring/boardvo/BoardVO.java:89:	Parameter 'order_by' is not assigned and could be declared final
+src/main/java/com/spring/boardvo/BoardVO.java:89:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:93:	Method names should not contain underscores
+src/main/java/com/spring/boardvo/BoardVO.java:93:	publicMethodCommentRequirement Required
+src/main/java/com/spring/boardvo/BoardVO.java:97:	Method names should not contain underscores
+src/main/java/com/spring/boardvo/BoardVO.java:97:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'order_sc' is not final.
+src/main/java/com/spring/boardvo/BoardVO.java:97:	Parameter 'order_sc' is not assigned and could be declared final
+src/main/java/com/spring/boardvo/BoardVO.java:97:	publicMethodCommentRequirement Required
